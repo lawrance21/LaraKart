@@ -11,12 +11,12 @@ export class ProductService {
      { id: 2, name: 'Mens t-shirt', price: 799, image: 'assets/t-shirts.webp',description: 'Mens Super Soft Cotton Oversized T-Shirt.',rating: 4,
        MRP:1499, Offer:47
       },
-      { id: 3, name: 'Womens T-Shirts', price: 799, image: 'assets/Womens.jpg',description: 'Women Printed Round Neck Pure Cotton ',rating: 4,
-        MRP:1499, Offer:47
-      },
-      { id: 4, name: 'Jean', price: 999, image: 'assets/jean.jpg',description: 'Men Relaxed Fit Mid Rise Blue Jeans',rating: 4, 
+      { id: 3, name: 'Jean', price: 999, image: 'assets/jean.jpg',description: 'Men Relaxed Fit Mid Rise Blue Jeans',rating: 4, 
        MRP:1999, Offer:50
      },
+      { id: 4, name: 'Cycle', price:7698, image: 'assets/Cycle.jpg',description: 'CRADIAC GLOBETROTTER | Fully Fitted | Suspension Fork | Dual Disc 26 T (inch) Mountain Cycle  (7 Gear, Black, Only Front Suspension) ',rating: 4,
+        MRP:26199, Offer:70
+      },
      { id: 5, name: 'Canon Camera EOS R10', price: 59999, image: 'assets/camera.jpg',description: 'Canon EOS R10 Mirrorless Camera Body with RF-S 18 - 45 mm f/4.5 - 6.3 IS STM Lens  (Black) ',rating: 4,
       MRP:12000, Offer:30
      },

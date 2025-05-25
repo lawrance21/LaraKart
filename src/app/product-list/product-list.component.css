@@ -21,7 +21,7 @@
   }
   
   .carousel-inner img {
-    height: 350px; /* or auto if you want full image height */
+    height:350px; /* or auto if you want full image height */
     object-fit:fill;
     width: 100%;
   }
