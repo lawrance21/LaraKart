@@ -12,16 +12,34 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-  <img src="./assets/LK_logo.png" alt="LaraKart Logo" height="35" />
 
-    <a class="navbar-brand" routerLink="/">LaraKart</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Logo + Brand Name -->
+    <a class="navbar-brand d-flex align-items-center gap-2" routerLink="/">
+      <img src="./assets/LK_logo.png" alt="LaraKart Logo" height="35" />
+      <span class="fw-bold">LaraKart</span>
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarContent"
+      aria-controls="navbarContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- Collapsible Menu -->
     <div class="collapse navbar-collapse" id="navbarContent">
-      <form class="d-flex mx-auto my-2 my-lg-0 w-100" style="max-width: 400px;">
+
+      <!-- Search bar (centred on large, stacked on mobile) -->
+      <form
+        class="d-flex mx-lg-auto my-2 my-lg-0 w-100 justify-content-center"
+        style="max-width: 400px;"
+      >
         <input
           type="text"
           placeholder="Search products..."
@@ -30,14 +48,19 @@
           name="search"
         />
       </form>
-      <ul class="navbar-nav ms-auto">
+
+      <!-- Navigation Links -->
+      <ul class="navbar-nav ms-lg-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" routerLink="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/cart">Cart <i class="fa-solid fa-cart-shopping ms-1"></i></a>
+          <a class="nav-link" routerLink="/cart">
+            Cart <i class="fa-solid fa-cart-shopping ms-1"></i>
+          </a>
         </li>
       </ul>
+
     </div>
   </div>
 </nav>

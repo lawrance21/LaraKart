@@ -40,3 +40,15 @@
     border-radius: 50%;
   }
   
+.navbar-brand img {
+  height: 35px;
+  width: auto;
+}
+@media (max-width: 576px) {
+  .navbar-brand span {
+    font-size: 1rem;
+  }
+  .form-control {
+    font-size: 0.9rem;
+  }
+}
